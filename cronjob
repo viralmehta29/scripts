@@ -10,4 +10,4 @@ and then type below in the editor windows
 
 
 
-*/1 * * * * /root/monitor_file.sh
+*/1 * * * * /root/monitor_files.sh
