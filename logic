@@ -14,6 +14,6 @@ Run Job
 
 	List files, modified between system time and start time.
 
-	put them into log file.
+	put them into log file. (here modified_list.log) 
 
 	find . -mmin -5 -type f -print
