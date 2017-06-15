@@ -1,0 +1,13 @@
+Create a new cron tab entry by runnning
+
+crontab -e
+
+
+
+and then type below in the editor windows
+
+
+
+
+
+*/1 * * * * /root/monitor_file.sh
