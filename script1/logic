@@ -1,0 +1,19 @@
+Run Job
+
+	Get System time.
+
+	Get Time from the log file
+
+		If file not found, take start time as the 00000000000000
+
+		IF file found , then get that time.
+
+	And use this time as start time.
+
+	Create   File  file_watcher.log ( this file will save last check time)
+
+	List files, modified between system time and start time.
+
+	put them into log file. (here modified_list.log) 
+
+	find . -mmin -5 -type f -print
